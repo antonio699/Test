@@ -1,0 +1,16 @@
+commit 9f44dfc8c8fbcbb5a6bf429701ba00a25423d958 (HEAD -> logging, origin/master, origin/logging, master)
+Author: antonio699 <petar.koloski@hotmail.com>
+Date:   Wed Mar 21 12:20:16 2018 +0100
+
+    modify l1.txt
+
+commit 20c7e26e48fa4dab5d9a4aa6eb9bd9323e08fee0
+Author: antonio699 <petar.koloski@hotmail.com>
+Date:   Wed Mar 21 12:17:41 2018 +0100
+
+    Initial commit
+
+commit d34fb7f17d9c4cd6f51e9ea04bb6571d770c74ad
+Author: antonio699 <petar.koloski@hotmail.com>
+Date:   Wed Mar 21 12:12:18 2018 +0100
+
