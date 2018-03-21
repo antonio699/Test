@@ -1,1 +1,109 @@
-Site commands
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (master)
+$ git remote add origin https://github.com/antonio699/Test.git
+
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (master)
+$ git push -u origin master
+
+
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (master)
+$ git add .
+
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (master)
+$ git commit -m"Initial commit"
+
+
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (master)
+$ git push origin master
+
+
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (master)
+$ git add .
+
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (master)
+$ git commit -m"modify l1.txt"
+
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (master)
+$ git push origin master
+
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (master)
+$ git fetch origin master
+
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (master)
+$ git reset --hard origin/master
+
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (master)
+$ git checkout -b logging
+
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (logging)
+$ git push origin logging
+
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (logging)
+$ git log
+
+
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (logging)
+$ git add .
+
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (logging)
+$ git commit -m"log.txt added"
+
+
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (logging)
+$ git push origin logging
+
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (logging)
+$ git checkout master
+
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (master)
+$ git checkout logging
+
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (logging)
+$ git checkout master
+ 
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (master)
+$ git checkout logging
+ 
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (logging)
+$ git merge master
+ 
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (logging)
+$ git checkout master
+ 
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (master)
+$ git merge logging
+
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (master)
+$ git push origin master
+ 
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (master)
+$ git checkout logging
+ 
+ 
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (logging)
+$ git checkout master
+ 
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (master)
+$ git checkout -b allcomands
+ 
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (allcomands)
+$ git push origin allcomands
+ 
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (allcomands)
+$ git add .
+
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (allcomands)
+$ git commit -m"commands added"
+ 
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (allcomands)
+$ git push origin allcomands
+ 
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (allcomands)
+$ git checkout master
+ 
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (master)
+$ git rebase allcomands
+ 
+Antonio@DESKTOP-OATS74K MINGW64 ~/Desktop/GitMain/Test (master)
+$ git push origin master
+ 
+
